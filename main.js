@@ -11,7 +11,7 @@ let element = document.createElement('div');
 element.classList.add('square');
 element.style.width= `${width/size}px` ;
 element.style.height = `${width/size}px`;
-element.style.border = "1px solid grey";
+element.style.border = "thin solid yellow";
 element.addEventListener('mouseover',function(ev){ 
     this.classList.add('black');
 });
